@@ -137,7 +137,7 @@ class Ultrasonic:
 # Main code
 MAP_DIMENSIONS = (600, 1200)
 
-gfx = Graphics(MAP_DIMENSIONS, 'robot.png', 'obstacle.png')
+gfx = Graphics(MAP_DIMENSIONS, 'robot.png', 'obstacle_2.png')
 
 start = (200, 200)
 robot = Robot(start, 0.01 * 3779.52)
